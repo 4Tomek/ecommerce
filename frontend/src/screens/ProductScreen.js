@@ -8,7 +8,7 @@ import Message from '../components/Message'
 import { listProductDetails } from '../actions/productActions'
 
 
-function ProductScreen( match, history ) {
+function ProductScreen() {
   const [qty, setQty] = useState(1)
 
   const productId = useParams()
